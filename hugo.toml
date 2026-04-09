@@ -1,6 +1,7 @@
-baseURL = 'https://anusthetic.github.io/'
+baseURL = 'https://anusthetic.github.io/KWoC-25-Report/'
 languageCode = 'en-us'
 title = 'Anushka Raj'
 theme = 'PaperMod'
+disableKinds = ["RSS"]
 [markup.goldmark.renderer]
 unsafe = true
