@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://anusthetic.github.io/KWoC-25-Report/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
